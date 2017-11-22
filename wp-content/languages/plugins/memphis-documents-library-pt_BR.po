@@ -1,0 +1,1769 @@
+# Translation of Plugins - Memphis Documents Library - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Memphis Documents Library - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-02-26 17:12:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Memphis Documents Library - Stable (latest release)\n"
+
+#: includes/mdocs-functions.php:344
+msgid "An Error has occured on line 320 of the mdocs-functions.php file."
+msgstr "Erro ocorreu na linha 320 do arquivo mdocs-functions.php."
+
+#: includes/mdocs-settings-page.php:113
+msgid "Turn on Advance Search"
+msgstr "Ativar Pesquisa Avançada"
+
+#: includes/mdocs-settings-page.php:112
+msgid "Search Settings"
+msgstr "Configurar Pesquisa"
+
+#: includes/mdocs-settings-page.php:110
+msgid "Language Settings"
+msgstr "Configurar Idioma"
+
+#: includes/mdocs-file-info-small.php:36
+msgid "Post is "
+msgstr "Post é"
+
+#: includes/mdocs-file-info-small.php:34
+msgid "File is Hidden"
+msgstr "Arquivo está oculto"
+
+#: includes/mdocs-shortcodes.php:29
+msgid "Adds a single file to any post, page or widget."
+msgstr "Adicionar arquivo simples a qualquer post, página ou widget."
+
+#: includes/mdocs-shortcodes.php:28
+msgid "Enter the file name."
+msgstr "Informe o nome do arquivo."
+
+#: includes/mdocs-functions.php:91
+msgid "A PHP extension stopped the file upload."
+msgstr "Extensão PHP interrompe upload arquivo."
+
+#: includes/mdocs-functions.php:90
+msgid "Failed to write file to disk."
+msgstr "Falha ao gravar arquivo para disco"
+
+#: includes/mdocs-functions.php:89
+msgid "Missing a temporary folder"
+msgstr "Inexiste pasta diretório de trabalho"
+
+#: includes/mdocs-functions.php:88
+msgid "No file was uploaded"
+msgstr "Nenhum upload de arquivo"
+
+#: includes/mdocs-functions.php:87
+msgid "The uploaded file was only partially uploaded"
+msgstr "Processo de upload arquivo está incompleto"
+
+#: includes/mdocs-functions.php:86
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"
+msgstr "Arquivo upload excede diretiva MAX_FILE_SIZE do formulário HTML"
+
+#: includes/mdocs-functions.php:85
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "Arquivo upload excede diretiva upload_max_filesize do php.ini"
+
+#: includes/mdocs-functions.php:84
+msgid "There is no error, the file uploaded with success"
+msgstr "Não há erros, upload de arquivo completado com sucesso"
+
+#: includes/mdocs-batch-upload.php:128
+msgid "Error: "
+msgstr "Erro:"
+
+#: includes/mdocs-batch-upload.php:128
+msgid "The zip file you are trying to upload can not be unzipped."
+msgstr "Arquivo zip para upload não pode ser descompactado."
+
+#: includes/mdocs-downloads.php:90
+msgid "This link will redirect you to a download page, enter your username and password to be redirect to that page."
+msgstr "Esse link redireciona para a página de download, informe seu usuário e senha para ser redirecionado para a página."
+
+#: includes/mdocs-downloads.php:89
+msgid "Redirect to Page"
+msgstr "Redirecionar para Página"
+
+#: includes/mdocs-downloads.php:86
+msgid "This link is a direct download of the file, enter you username and password and the download will start."
+msgstr "Esse link direto é para download do arquivo, informe usuário e senha para que o download iniciar o download."
+
+#: includes/mdocs-downloads.php:82
+msgid "If you have an account with this site, you can try the following links to download the file"
+msgstr "Caso tenho login nesse site, pode user os seguintes links para download do arquivo"
+
+#: includes/mdocs-settings-page.php:330
+msgid "Show upload non members"
+msgstr "Exibir Upload não membros"
+
+#: includes/mdocs-server-compatibility.php:134
+msgid "System Temp Directory Set"
+msgstr "Config. Diretório Temp Sistema"
+
+#: includes/mdocs-server-compatibility.php:86
+msgid "Memphis Documents Library needs a system temp directory to work.<br>Please look at you php.ini files value upload_tmp_dir.<br>You can also set a system temp directory from your servers settings as well.."
+msgstr "Biblioteca de Documentos Memphis precisa de um diretório temporário de trabalho.<br>Favor verificar no arquivo php.ini o valor upload_tmp_dir.<br> Também pode ser utilizado um diretório temporário em seu servidor."
+
+#: includes/mdocs-batch-upload.php:225
+msgid "Batch Upload Complete"
+msgstr "Upload Batch Completado"
+
+#: includes/mdocs-batch-upload.php:22
+msgid "Zip Upload Output:"
+msgstr "Saída Upload Zip:"
+
+#: includes/mdocs-batch-file-methods.php:110
+msgid "Show Social Media Buttons"
+msgstr "Exibir Botões Mídia Social"
+
+#: includes/mdocs-batch-file-methods.php:108
+msgid "Ver"
+msgstr "Ver"
+
+#: includes/mdocs-batch-file-methods.php:105
+msgid "Legend"
+msgstr "Legenda"
+
+#: includes/mdocs-batch-file-methods.php:80
+msgid "Enter a user or role type."
+msgstr "Informe tipo de Função do Usuário"
+
+#: includes/mdocs-batch-file-methods.php:24
+#: includes/mdocs-batch-file-methods.php:113
+msgid "PS"
+msgstr "PS"
+
+#: includes/mdocs-batch-file-methods.php:23
+#: includes/mdocs-batch-file-methods.php:112
+msgid "FS"
+msgstr "FS"
+
+#: includes/mdocs-batch-file-methods.php:22
+#: includes/mdocs-batch-file-methods.php:111
+msgid "NM"
+msgstr "NM"
+
+#: includes/mdocs-batch-file-methods.php:21
+#: includes/mdocs-batch-file-methods.php:110
+msgid "SS"
+msgstr "SS"
+
+#: includes/mdocs-batch-file-methods.php:20
+#: includes/mdocs-batch-file-methods.php:109
+msgid "DL"
+msgstr "DL"
+
+#: includes/mdocs-settings-page.php:95
+msgid "you will still have preview access using Box View."
+msgstr "continua possuindo acessão a Visualização através do Box View."
+
+#: includes/mdocs-settings-page.php:95
+msgid "Unfortunately Box View keys are no longer available, if you have an existing key"
+msgstr "Novas Chaves do Box View, não estão mais disponíveis, caso já possua uma"
+
+#: includes/mdocs-rights.php:106
+msgid "Login to Download"
+msgstr "Login para Download"
+
+#: includes/mdocs-settings-page.php:84
+msgid "Bootstrap - Dashboard"
+msgstr "Painel Controle - Bootstrap"
+
+#: includes/mdocs-settings-page.php:83
+msgid "Bootstrap - Frontend"
+msgstr "Painel Frontal"
+
+#: includes/mdocs-upload.php:202
+msgid "The file you are trying to upload is bigger than your php.ini files upload_max_filesize.  You will have to increase that value enable to upload this file."
+msgstr "O arquivo que está sendo feito upload é maior do que o parâmetro upload_max_filesize do php.ini permite. Redefinir valor para subir esse arquivo."
+
+#: includes/mdocs-settings-page.php:111
+msgid "Convert Filenames to Latin"
+msgstr "Converte nome arquivo para latin"
+
+#: includes/mdocs-folder-editor.php:32
+msgid "Delete Folder"
+msgstr "Apagar Pasta"
+
+#: includes/mdocs-folder-editor.php:31
+msgid "Move Folder"
+msgstr "Mover Pasta"
+
+#: includes/mdocs-folder-editor.php:30
+msgid "Add Sub Folder"
+msgstr "Adicionar Sub Pasta"
+
+#: includes/mdocs-folder-editor.php:29
+msgid "Folder Permissions"
+msgstr "Permissão Pasta"
+
+#: includes/mdocs-settings-page.php:207
+msgid "Hide File Name"
+msgstr "Esconder Nome Arquivo"
+
+#: includes/mdocs-settings-page.php:206
+msgid "Hide Name"
+msgstr "Esconder Nome"
+
+#: includes/mdocs-settings-page.php:263
+msgid "None"
+msgstr "Nenhum"
+
+#: includes/mdocs-settings-page.php:257
+msgid "Document Post Page Settings"
+msgstr "Configurações Página Publicar Documento"
+
+#: includes/mdocs-settings-page.php:251
+msgid "Dashboard Options"
+msgstr "Opções Painel Controle"
+
+#: includes/mdocs-settings-page.php:235
+msgid "Post Options"
+msgstr "Opções Publicação"
+
+#: includes/mdocs-settings-page.php:209
+msgid "Hide Sub Folders Category Page - [mdocs cat=\"A Cat\"]"
+msgstr "Esconder Sub Páginas Página Categoria [mdocs cat=\"A Cat\"]"
+
+#: includes/mdocs-settings-page.php:208
+msgid "Hide Sub Folder Main Page - [mdocs]"
+msgstr "Esconder sub pastas da Página Principal - [mdocs]"
+
+#: includes/mdocs-settings-page.php:275
+msgid "Hide New and Updated Label"
+msgstr "Esconder Rótulos Novos e Atualizados"
+
+#: includes/mdocs-settings-page.php:203
+msgid "UI Options"
+msgstr "Opções UI"
+
+#: includes/mdocs-settings-page.php:201
+msgid "Configuration Settings"
+msgstr "Configuração Parâmetros"
+
+#: includes/mdocs-settings-page.php:166
+msgid "Navbar Style"
+msgstr "Estilo Navbar"
+
+#: includes/mdocs-settings-page.php:152
+msgid "Download Button Style"
+msgstr "Estilo Botão Download"
+
+#: includes/mdocs-settings-page.php:79
+msgid "Disable System Settings"
+msgstr "Desabilitar Config Sistema"
+
+#: includes/mdocs-file-info-small.php:136
+msgid "Login"
+msgstr "Login"
+
+#: includes/mdocs-file-info-small.php:110
+msgid "downloads"
+msgstr "downloads"
+
+#: includes/mdocs-doc-preview.php:195
+msgid "Please Login"
+msgstr "Fazer Login"
+
+#: includes/mdocs-doc-preview.php:191 includes/mdocs-doc-preview.php:202
+msgid "Access Denied"
+msgstr "Acesso Negado"
+
+#: includes/mdocs-server-compatibility.php:101
+msgid "PHP Version Support 5.5.9 or greater"
+msgstr "Versão PHP deve ser 5.5.9 ou maior"
+
+#: includes/mdocs-server-compatibility.php:12
+msgid "You may experience errors will using this plugin."
+msgstr "Poderão ocorrer erros ao usar esse plugin."
+
+#: includes/mdocs-server-compatibility.php:12
+msgid "Your PHP version is not support by Memphis Documents Library."
+msgstr "Sua versão PHP não é suportada por biblioteca documentos Memphis."
+
+#: includes/mdocs-server-compatibility.php:9
+msgid "Your PHP Version is:"
+msgstr "Seu PHP tem versão:"
+
+#: includes/mdocs-settings-page.php:297
+msgid "Hide Sortbar"
+msgstr "Esconder Barra-Sort"
+
+#: includes/mdocs-settings-page.php:204
+msgid "Hide Navbar"
+msgstr "Esconder NavBar"
+
+#: includes/mdocs-settings-page.php:225
+msgid "Post Page Title Font Size"
+msgstr "Tamanho Fonte Título Página Publicação"
+
+#: includes/mdocs-settings-page.php:224
+msgid "Override Post Title Font Size"
+msgstr "Sobrepôr Tamanho Fonte Título Publicação"
+
+#: includes/mdocs-settings-page.php:223
+msgid "Show Post Title"
+msgstr "Exibir Título Publicação"
+
+#: includes/mdocs-settings-page.php:211
+msgid "Hide the WordPress Entry Summary Div"
+msgstr "Omitir Div Wordpress Entrada Resumida"
+
+#: includes/mdocs-settings-page.php:81
+msgid "This setting might result in duplicate files being added, deleted, or other actions."
+msgstr "Essa configuração deve resultar em arquivos duplicados adicionados, apagados ou outras ações."
+
+#: includes/mdocs-settings-page.php:80
+msgid "Disable Sessions"
+msgstr "Desabilitar Sessões"
+
+#: includes/mdocs-settings-page.php:77
+msgid "System Settings"
+msgstr "Configuração Sistema"
+
+#: includes/mdocs-server-compatibility.php:62
+msgid "The Current WordPress upload directory for Memphis Document Library:"
+msgstr "O diretório corrente para upload da biblioteca documento Memphis:"
+
+#: includes/mdocs-server-compatibility.php:58
+msgid " is not read/writeable.  Memphis Documents Library will not work with this access."
+msgstr "não é leitura/gravação. Biblioteca documentos Memphis não funciona sem esse acesso."
+
+#: includes/mdocs-server-compatibility.php:58
+msgid "The WordPress upload directory:"
+msgstr "Diretório de upload WordPress:"
+
+#: includes/mdocs-settings-page.php:260
+msgid "Show Versions Tab"
+msgstr "Exibir Tab Versão"
+
+#: includes/mdocs-settings-page.php:259
+msgid "Show Preview Tab"
+msgstr "Exibir Tab Pré-Visualização"
+
+#: includes/mdocs-settings-page.php:258
+msgid "Show Description Tab"
+msgstr "Exibir Tab Descrição"
+
+#: includes/mdocs-settings-page.php:266
+msgid "Versions Tab"
+msgstr "Versões Tab"
+
+#: includes/mdocs-settings-page.php:265
+msgid "Preview Tab"
+msgstr "Preview Tab"
+
+#: includes/mdocs-settings-page.php:264
+msgid "Description Tab"
+msgstr "Tab Descrição"
+
+#: includes/mdocs-settings-page.php:237
+msgid "Hide All Posts"
+msgstr "Omitr Todas Postagens"
+
+#: includes/mdocs-settings-page.php:256
+msgid "Hide All Files"
+msgstr "Omitir Todos Arquivos"
+
+#: includes/mdocs-settings-page.php:205
+msgid "Hide File Type Icons"
+msgstr "Omitir Ícones Tipo Arquivo"
+
+#: includes/mdocs-post-page.php:66
+msgid "Sorry you can't see this Memphis Documents file you don't have the proper permission."
+msgstr "Permissão incompleta para visualizar arquivo desse Documento Memphis."
+
+#: includes/mdocs-upload.php:52
+msgid "Memphis Documents Library requires sessions to be enable.  Please configure your server to allow for sessions."
+msgstr "Biblioteca Documentos Memphis requer habilitar sessões. Favor configurar servidor para permitir sessões."
+
+#: includes/mdocs-settings-page.php:319
+msgid "Show Social"
+msgstr "Exibir Social"
+
+#: includes/mdocs-settings-page.php:253
+msgid "Show Memphis Files in Media Menu"
+msgstr "Exibir Arquivos no Menu Mídia"
+
+#: includes/mdocs-server-compatibility.php:113
+msgid "Sessions Enabled"
+msgstr "Sessões Habilitadas"
+
+#: includes/mdocs-server-compatibility.php:78
+msgid "Sessions need to be enable for Memphis Documents Library to function properly."
+msgstr "Sessões precisam estar habilitadas para funcionamento da biblioteca documentos Memphis."
+
+#: includes/mdocs-server-compatibility.php:25
+msgid "If you have lots of folders it is recommend to increasing this value."
+msgstr "Se possuir diversas pastas é recomendado incrementar esse valor."
+
+#. Author URI of the plugin/theme
+msgid "http://www.kingofnothing.net/"
+msgstr "http://www.kingofnothing.net/"
+
+#. Author of the plugin/theme
+msgid "Ian Howatson"
+msgstr "Ian Howatson"
+
+#. Description of the plugin/theme
+msgid "A documents repository for WordPress."
+msgstr "Repositório para documentos Wordpress."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.kingofnothing.net/memphis-documents-library/"
+msgstr "http://www.kingofnothing.net/memphis-documents-library/"
+
+#: includes/mdocs-versions.php:86
+msgid "Update To Revision"
+msgstr "Atualizar para Revisão"
+
+#: includes/mdocs-doc-preview.php:212 includes/mdocs-versions.php:36
+#: includes/mdocs-versions.php:46
+msgid "Current"
+msgstr "Atual"
+
+#: includes/mdocs-batch-file-methods.php:17
+#: includes/mdocs-batch-file-methods.php:107 includes/mdocs-doc-preview.php:210
+#: includes/mdocs-versions.php:33 includes/mdocs-versions.php:43
+msgid "Date Modified"
+msgstr "Data Modificação"
+
+#: includes/mdocs-doc-preview.php:208 includes/mdocs-versions.php:31
+#: includes/mdocs-versions.php:41
+msgid "File"
+msgstr "Arquivo"
+
+#: includes/mdocs-the-list.php:7
+msgid "Unable to create the directory \"mdocs\" which is needed by Memphis Documents Library. Its parent directory is not writable by the server?"
+msgstr "Não foi possivel criar diretório \"mdocs\" o qual é necessário para biblioteca documentos Memphis. Seu diretório superior não parece ter permissão gravação!"
+
+#: includes/mdocs-the-list.php:92
+msgid "No files found in this folder."
+msgstr "Nenhum arquivo encontrado no diretório."
+
+#: includes/mdocs-options.php:61
+msgid "Last Modified"
+msgstr "Última Modificação"
+
+#: includes/mdocs-options.php:59
+msgid "Owner"
+msgstr "Dono"
+
+#: includes/mdocs-batch-file-methods.php:15
+#: includes/mdocs-batch-file-methods.php:106 includes/mdocs-the-list.php:37
+#: includes/mdocs-the-list.php:52
+msgid "Name"
+msgstr "Nome"
+
+#: includes/mdocs-social.php:43
+msgid "This page is hidden to all users accepts admins."
+msgstr "Essa página está oculta para todos os usuários excepto admins."
+
+#: includes/mdocs-shortcodes.php:33
+msgid "Adds a header to the Memphis Documents LIbrary on ay page, post or widget."
+msgstr "Adicionar cabeçalho na página biblioteca documentos Memphis em todas Publicações."
+
+#: includes/mdocs-shortcodes.php:32
+msgid "This text will show up above the documents list."
+msgstr "Esse texte irá ser exibido acima da lista de documentos."
+
+#: includes/mdocs-shortcodes.php:25
+msgid "Adds a list of all files of the Memphis Documents Library on any page, post or widget."
+msgstr "Adicionar uma lista de todos arquivos biblioteca documentos Memphis em cada página, publicação ou widget."
+
+#: includes/mdocs-shortcodes.php:21
+msgid "Adds files from  a specific folder of the Memphis Documents Library on any page, post or widget."
+msgstr "Adic. arquivos de uma pasta específica para Biblioteca de Documentos Memphis em página, post ou widget"
+
+#: includes/mdocs-shortcodes.php:20
+msgid "The Category Name"
+msgstr "Nome Categoria"
+
+#: includes/mdocs-shortcodes.php:17
+msgid "Adds the default Memphis Documents Library file list to any page, post or widget."
+msgstr "Adic. Lista Arquivos Biblioteca Documentos Memphis a qualquer página, post ou widget."
+
+#: includes/mdocs-patches.php:216
+msgid "Your Memphis <b>Categories</b> have been counted to handle subcategories this should not effect your current file system in anyway.  If there is any issues please post a comment in the support forum of this plugin.  It is recommended to re-export your files again due to the new way categories are structured."
+msgstr "<b> Categorias </b> Memphis são projetadas para manusear subcategorias que não devem afetar o seu sistema de arquivos. Caso haja qualquer requerimento por favor postar um comentário no forum de suporte deste plugin. É recomendado executar a exportação de seus arquivos novamente para refletir a estrutura das novas categorias."
+
+#: includes/mdocs-patches.php:209
+msgid "Your Memphis <b>Categories</b> have been updated to handle subcategories this should not effect your current file system in anyway.  If there is any issues please post a comment in the support forum of this plugin.  It is recommended to re-export your files again due to the new way categories are structured."
+msgstr "Memphis <b>Categories</b> foi atualizado para manusear subcategorias isso não afeta seu sistema de outras maneiras.  Caso haja qualquer requerimentos adicionais, favor postar no forum de suporte desse plugin.  Recomendado re-exportar seus arquivos novamente para estruturar as subcategorias de acordo com essas modificações."
+
+#: includes/mdocs-patches.php:202
+msgid "Your Memphis <b>.htaccess</b> file has been updated to allow google.com access to the system.   This step is necessary to allow documents to be previewed."
+msgstr "Arquivo <b>.htaccess</b> foi atualizado para permitir acesso a partir do google.com ao sistema Memphis Docs.  Isso é necessário para permitir pré-visualização dos documentos."
+
+#: includes/mdocs-settings.php:36
+msgid "Documents"
+msgstr "Documentos"
+
+#: includes/mdocs-settings.php:31
+msgid "Unable to create the directory \"mdocs\" which is needed by Memphis Documents Library. Is its parent directory writable by the server?"
+msgstr "Não foi possível criar a pasta \"mdocs\" necessária pela Biblioteca Documentos Memphis. O diretório mediato é gravável pelo servidor?"
+
+#: includes/mdocs-patches.php:104
+msgid "Go grab a coffee this may take awhile."
+msgstr "Busque um café pois vai levar algum tempo."
+
+#: includes/mdocs-settings-page.php:348
+msgid "Save Changes"
+msgstr "Salvar Modificações"
+
+#: includes/mdocs-settings-page.php:334
+msgid "Show upload description"
+msgstr "Exibir descrição upload"
+
+#: includes/mdocs-settings-page.php:332
+msgid "Show upload tags"
+msgstr "Exibir tags upload"
+
+#: includes/mdocs-settings-page.php:331
+msgid "Show upload contributors"
+msgstr "Exibir contribuidores upload"
+
+#: includes/mdocs-settings-page.php:329
+msgid "Show upload social"
+msgstr "Exibir Social upload"
+
+#: includes/mdocs-settings-page.php:328
+msgid "Show upload post status"
+msgstr "Exibir Status post upload"
+
+#: includes/mdocs-settings-page.php:327
+msgid "Show upload file status"
+msgstr "Exibir status arquivo upload"
+
+#: includes/mdocs-settings-page.php:326
+msgid "Show upload date"
+msgstr "Exibir data upload"
+
+#: includes/mdocs-settings-page.php:325
+msgid "Show upload version"
+msgstr "Exibir Versão upload"
+
+#: includes/mdocs-settings-page.php:324
+msgid "Show upload folder"
+msgstr "Exibir pasta upload"
+
+#: includes/mdocs-settings-page.php:322
+msgid "This hides input fields from users when they are uploading a file."
+msgstr "Esconder campos de entrada dos usuários quando fazem upload arquivo."
+
+#: includes/mdocs-settings-page.php:322
+msgid "Displayed File Properties"
+msgstr "Exibir Propriedades Arquivo"
+
+#: includes/mdocs-settings-page.php:301
+msgid "This hides file information from users."
+msgstr "Esconder informação dos usuários."
+
+#: includes/mdocs-settings-page.php:301
+msgid "Displayed File Information"
+msgstr "Exibir Informação Arquivo"
+
+#: includes/mdocs-settings-page.php:102
+msgid ".htaccess File Editor"
+msgstr "Editor Arquivo .htaccess"
+
+#: includes/mdocs-settings-page.php:261
+msgid "Default Content:"
+msgstr "Conteúdo Padrão"
+
+#: includes/mdocs-settings-page.php:296
+msgid "Disable User Sort"
+msgstr "Desabilitar Classif. Usuário"
+
+#: includes/mdocs-settings-page.php:293
+msgid "Sort Ascending"
+msgstr "Classif. Ascendente"
+
+#: includes/mdocs-settings-page.php:292
+msgid "Sort Descending"
+msgstr "Classificar Descendente"
+
+#: includes/mdocs-settings-page.php:290
+msgid "Order Style:"
+msgstr "Classificar Estilo:"
+
+#: includes/mdocs-options.php:62 includes/mdocs-settings-page.php:287
+msgid "Rating"
+msgstr "Avaliação"
+
+#: includes/mdocs-settings-page.php:283
+msgid "Number of Downloads"
+msgstr "Núm. de Downloads"
+
+#: includes/mdocs-settings-page.php:280
+msgid "Order Types:"
+msgstr "Classif. Tipos:"
+
+#: includes/mdocs-settings-page.php:278
+msgid "Default Sort Options"
+msgstr "Opção Classif. Padrão"
+
+#: includes/mdocs-settings-page.php:276
+msgid "days - Time to Displayed"
+msgstr "dias - Tempo para Exibir"
+
+#: includes/mdocs-settings-page.php:274
+msgid "Show New & Updated Banner"
+msgstr "Exibir Banner Novo e Atualizado"
+
+#: includes/mdocs-settings-page.php:272
+msgid "New & Updated Banner"
+msgstr "Banner Novo e Atualizado"
+
+#: includes/mdocs-settings-page.php:101
+msgid "Date/Time Format Reference"
+msgstr "Formato Ref. Data/Hora"
+
+#: includes/mdocs-settings-page.php:99
+msgid "Date/Time Format"
+msgstr "Formato Data/Hora"
+
+#: includes/mdocs-settings-page.php:320
+msgid "Show Sharing Button/Link"
+msgstr "Exibir Botão/Link Compart."
+
+#: includes/mdocs-settings-page.php:236
+msgid "Hide All Posts: (Non Members)"
+msgstr "Omitir todos Posts: (Não Membros)"
+
+#: includes/mdocs-settings-page.php:255
+msgid "Hide All Files: (Non Members)"
+msgstr "Esconder Todos Arquivos: (Não Membros)"
+
+#: includes/mdocs-settings-page.php:238
+msgid "Hide All Post From Homepage"
+msgstr "Omitir Todos Posts da Página Home"
+
+#: includes/mdocs-settings-page.php:252
+msgid "Show Memphis Posts Menu"
+msgstr "Exibir Menu Posts Memphis"
+
+#: includes/mdocs-settings-page.php:210
+msgid "Show No Files Found"
+msgstr "Exibir Não Encontrou Arquivos"
+
+#: includes/mdocs-settings-page.php:177
+msgid "Navbar Preview"
+msgstr "Navbar Visualizar"
+
+#: includes/mdocs-settings-page.php:171
+msgid "Border Color"
+msgstr "Cor Borda"
+
+#: includes/mdocs-settings-page.php:168
+msgid "Navbar Options"
+msgstr "Opção Navbar"
+
+#: includes/mdocs-settings-page.php:163
+msgid "Download Button Preview"
+msgstr "Botão Visualizar Download"
+
+#: includes/mdocs-settings-page.php:161 includes/mdocs-settings-page.php:175
+msgid "Text Hover Color"
+msgstr "Cor Texto Hover"
+
+#: includes/mdocs-settings-page.php:159 includes/mdocs-settings-page.php:173
+msgid "Text Color"
+msgstr "Cor Texto"
+
+#: includes/mdocs-settings-page.php:157
+msgid "Background Hover Color"
+msgstr "Cor Fundo para Hover "
+
+#: includes/mdocs-settings-page.php:155 includes/mdocs-settings-page.php:169
+msgid "Background Color"
+msgstr "Cor Fundo"
+
+#: includes/mdocs-settings-page.php:154
+msgid "Download Button Options"
+msgstr "Opções Botão Download"
+
+#: includes/mdocs-settings-page.php:212
+msgid "Document List Font Size"
+msgstr "Lista Tamanho Fonte Documento"
+
+#: includes/mdocs-settings-page.php:88
+msgid "Fontawesome"
+msgstr "Fontawesome"
+
+#: includes/mdocs-settings-page.php:87
+msgid "jQuery"
+msgstr "jQuery"
+
+#: includes/mdocs-settings-page.php:86
+msgid "Using one, all or none of these Bootstrap fixes, may help."
+msgstr "Usando nenhuma, uma ou todas correções Bootstrap, pode ajudar. "
+
+#: includes/mdocs-settings-page.php:85
+msgid "Bootstrap Dropdown Fix"
+msgstr "Corrigir Bootstrap Dropdown"
+
+#: includes/mdocs-settings-page.php:82
+msgid "Disable Thrid Party Includes"
+msgstr "Desabilitar Inclusões Terceiros"
+
+#: includes/mdocs-settings-page.php:95
+msgid "A Box View Key is needed to use Box Document Preview."
+msgstr "Chave Box View é necessária para Visualizar Documento Box,"
+
+#: includes/mdocs-settings-page.php:94
+msgid "Login to Box Developer site to get your key."
+msgstr "Registrar-se Box Desenvolvedor para obter sua chave."
+
+#: includes/mdocs-settings-page.php:93
+msgid "Enter your key here"
+msgstr "Informe sua chave aqui"
+
+#: includes/mdocs-settings-page.php:92
+msgid "Box View Key"
+msgstr "Chave Visualizar Box"
+
+#: includes/mdocs-settings-page.php:91
+msgid "Use Box Document Preview"
+msgstr "Usar Visualizar Doc. Box"
+
+#: includes/mdocs-settings-page.php:90
+msgid "Use Google Docuement Preview"
+msgstr "Usar Visualizar Doc. Google"
+
+#: includes/mdocs-settings-page.php:89
+msgid "Document Preview Settings"
+msgstr "Config Visualização Documento"
+
+#: includes/mdocs-settings-page.php:136
+msgid "Private File Post Viewing"
+msgstr "Visualizar Privativ. Post Arquivo"
+
+#: includes/mdocs-settings-page.php:117
+msgid "Allowed to Upload"
+msgstr "Permitido Upload"
+
+#: includes/mdocs-settings-page.php:67
+msgid "Library Settings"
+msgstr "Config. Biblioteca"
+
+#: includes/mdocs-server-compatibility.php:149
+msgid "PHP5 cURL Installed"
+msgstr "PHP5 cURL instalado"
+
+#: includes/mdocs-server-compatibility.php:144
+msgid "Imagick Installed"
+msgstr "Imagick Instalado"
+
+#: includes/mdocs-server-compatibility.php:139
+msgid "ZipArchive Installed"
+msgstr "ZipArchive instalado"
+
+#: includes/mdocs-server-compatibility.php:129
+msgid "Date Time Method Available"
+msgstr "Método Data Hora Disponível"
+
+#: includes/mdocs-server-compatibility.php:124
+msgid "Your current max_input_vars value is"
+msgstr "Valor atual de max_input_vars é"
+
+#: includes/mdocs-server-compatibility.php:124
+msgid "Recommended Maxim PHP Input Vars"
+msgstr "Recomendado Maxim. Variav. PHP de Entrada."
+
+#: includes/mdocs-server-compatibility.php:119
+msgid "PHP Image Processing and GD"
+msgstr "Processamente de Imagens PHP e GD "
+
+#: includes/mdocs-server-compatibility.php:107
+msgid "Wordpres upload direcotry read/write access"
+msgstr "Wordpress deve ter acesso na pasta como leitura/gravação"
+
+#: includes/mdocs-server-compatibility.php:98
+msgid "Information"
+msgstr "Informação"
+
+#: includes/mdocs-server-compatibility.php:97
+msgid "Results"
+msgstr "Resultados"
+
+#: includes/mdocs-server-compatibility.php:96
+msgid "System Requirements"
+msgstr "Requerimentos do Sistema"
+
+#: includes/mdocs-server-compatibility.php:91
+msgid "Memphis Documents: Server Compatiability Check"
+msgstr "Documentos Memphis: Verificar Compatibilidade Servidor"
+
+#: includes/mdocs-server-compatibility.php:70
+msgid "Ajax functionality will not work, problems with displaying descriptions and previews will occur."
+msgstr "Funcionalidade Ajax não funciona, problemas ao exibir descrições ou visualizações podem haver."
+
+#: includes/mdocs-server-compatibility.php:49
+msgid "Imagick is used to create pdf thumbnails."
+msgstr "Imagick é usado para criar miniatuas pdf."
+
+#: includes/mdocs-server-compatibility.php:41
+msgid "ZipArchive is used in import, export and batch upload, it needs to be install in order for these to function."
+msgstr "ZipArchive é usado para importar, exportar e upload em batch e deve estar operacional para essa função."
+
+#: includes/mdocs-server-compatibility.php:33
+msgid "PHP version 5.3 or greater is required to be able to modify dates."
+msgstr "PHP versão 5.3 ou maior é requerida para modificar datas."
+
+#: includes/mdocs-server-compatibility.php:28
+msgid "If you have lots of folders we recommend increasing this value."
+msgstr "Se existem diversas pastas, recomendamos incrementar esse valor."
+
+#: includes/mdocs-server-compatibility.php:25
+#: includes/mdocs-server-compatibility.php:28
+msgid "The recommended value is 1000."
+msgstr "Valor recomendado é 1000."
+
+#: includes/mdocs-server-compatibility.php:20
+msgid "Document thumbnails will not work."
+msgstr "Miniaturas Documento não irão funcionar."
+
+#: includes/mdocs-rights.php:166
+msgid "Other Versions"
+msgstr "Outras Versões"
+
+#: includes/mdocs-rights.php:159
+msgid "Refresh Preview and Thumbnail"
+msgstr "Atualizar Visualizar e Miniaturas"
+
+#: includes/mdocs-rights.php:151
+msgid "Delete File"
+msgstr "Apagar Arquivo"
+
+#: includes/mdocs-rights.php:143
+msgid "Rate"
+msgstr "Avaliar"
+
+#: includes/mdocs-rights.php:135 includes/mdocs-social.php:29
+msgid "Share"
+msgstr "Compartilhar"
+
+#: includes/mdocs-rights.php:93
+msgid "Manage Versions"
+msgstr "Gerenc. Versões"
+
+#: includes/mdocs-rights.php:85
+msgid "Goto Post"
+msgstr "Ir Postagem"
+
+#: includes/mdocs-rights.php:76
+msgid "Manage File"
+msgstr "Gerenciar Arq."
+
+#: includes/mdocs-restore-defaults.php:10
+msgid "This will return Memphis Documents Library to its default install state.  This means that all you files, post, and categories will be remove and all setting will return to their default state. <b>Please backup your files before continuing.</b>"
+msgstr "Isso irá restaurar a Biblioteca Documentos Memphis para o estado de instalação. Significa que todos seus arquivos, postagens e categorias irão ser removidas e suas configurações serão padrões. <b>Favor faça Backup dos Arquivos Antes de continuar.</b>"
+
+#: includes/mdocs-restore-defaults.php:7
+msgid "Restore Memphis Document Library's to Defaults"
+msgstr "Restaurar Biblioteca Documentos Memphis para Padrões"
+
+#: includes/mdocs-ratings.php:24
+msgid "Ratings functionality is off."
+msgstr "Funcionalidade Avaliar desligada."
+
+#: includes/mdocs-modals.php:129
+msgid "Move"
+msgstr "Mover"
+
+#: includes/mdocs-modals.php:111
+msgid "Save"
+msgstr "Salvar"
+
+#: includes/mdocs-modals.php:19 includes/mdocs-modals.php:25
+#: includes/mdocs-modals.php:38 includes/mdocs-modals.php:42
+#: includes/mdocs-modals.php:55 includes/mdocs-modals.php:59
+#: includes/mdocs-modals.php:73 includes/mdocs-modals.php:77
+#: includes/mdocs-modals.php:90 includes/mdocs-modals.php:94
+#: includes/mdocs-modals.php:107 includes/mdocs-modals.php:112
+#: includes/mdocs-modals.php:125 includes/mdocs-modals.php:130
+#: includes/mdocs-modals.php:143 includes/mdocs-modals.php:149
+#: includes/mdocs-modals.php:162 includes/mdocs-modals.php:167
+#: includes/mdocs-versions.php:18
+msgid "Close"
+msgstr "Fechar"
+
+#: includes/mdocs-localization.php:196
+msgid "You have reached the maxium number of input variable allowed for your servers configuration, this means you can not edit folders anymore.  To be able to edit folders again, please increase the variable max_input_vars in your php.ini file."
+msgstr "Foi atingido o número máximo de variáveis de entrada pela config do seu servidor, isso significa que não podem ser editados mais pastas.  Para continuar editando pastas novamente, favor incrementar a variável max_input_vars no seu arquivo php.ini."
+
+#: includes/mdocs-localization.php:195
+msgid "An error occurred when creating a folder, please try again."
+msgstr "Erro Ocorreu ao criar Pasta. Favor tentar novamente."
+
+#: includes/mdocs-localization.php:194
+msgid "The import file is too large, please update your php.ini files upload_max_filesize."
+msgstr "A importação de um arquivo muito grande, favor incrementar php.ini upload_max_filesize."
+
+#: includes/mdocs-localization.php:193
+msgid "You are already at the most recent version of this document."
+msgstr "Está já é a versão mais recente deste documento."
+
+#: includes/mdocs-localization.php:192
+msgid "File Upload Error.  Please try again."
+msgstr "Erro Upload Arquivo. Favor recomeçar."
+
+#: includes/mdocs-localization.php:190
+msgid "No folders found.  The upload process can not proceed."
+msgstr "Nenhuma pasta encontrada. O upload não pode prosseguir."
+
+#: includes/mdocs-localization.php:189
+msgid "Sorry, this file type is not permitted for security reasons.  If you want to add this file type please goto the setting page of Memphis Documents Library and add it to the Allowed File Type menu."
+msgstr "Esse tipo de arquivo ,não é permitido por razões de segurança. Se desejar adicionar esse tipo de arquivo acesse a página de config da Biblioteca Documentos Memphis e adicione esse no Menu Tipo de Arquivo."
+
+#: includes/mdocs-localization.php:188
+msgid "No file was uploaded, please try again."
+msgstr "Nenhum arquivo carregado. Favor reiniciar."
+
+#: includes/mdocs-localization.php:124
+msgid "preview has been updated."
+msgstr "visualizar foi atualizado."
+
+#: includes/mdocs-localization.php:38
+msgid "[ ALL ERRORS ARE BEING REPORTED ]"
+msgstr "[ TODOS OS ERROS SERÃO REPORTADOS ]"
+
+#: includes/mdocs-localization.php:38
+msgid "MDOCS DEVELOPMENT VERSION"
+msgstr "VERSÃO MDOC DESENVOLVIMENTO"
+
+#: includes/mdocs-downloads.php:85 includes/mdocs-localization.php:31
+msgid "Direct Download"
+msgstr "Download Direto"
+
+#: includes/mdocs-localization.php:30
+msgid "Download Page"
+msgstr "Download Página"
+
+#: includes/mdocs-localization.php:29
+msgid "Sharing"
+msgstr "Compartilhando"
+
+#: includes/mdocs-localization.php:28
+msgid "Export file creation complete, staring download of zip file."
+msgstr "Exportação de arquivo criada e completa, fazendo download o arquivo zip."
+
+#: includes/mdocs-localization.php:27
+msgid "Creating the export file, please be patient."
+msgstr "Criando arquivo exportação, Por Favor seja Paciente."
+
+#: includes/mdocs-localization.php:26
+msgid "Go grab a coffee this my take awhile."
+msgstr "Busque um café isso vai demorar um pouco."
+
+#: includes/mdocs-localization.php:25 includes/mdocs-patches.php:104
+msgid "UPDATE HAS STARTER, DO NOT LEAVE THIS PAGE!"
+msgstr "ATUALIZAÇÃO INICIADA, NÃO SAIA DESSA PÁGINA!"
+
+#: includes/mdocs-localization.php:24
+msgid "Current File"
+msgstr "Arquivo Corrente"
+
+#: includes/mdocs-localization.php:23
+msgid "Add Document"
+msgstr "Adic. Documento"
+
+#: includes/mdocs-localization.php:22
+msgid "Adding Document"
+msgstr "Adicionando Doc."
+
+#: includes/mdocs-localization.php:21
+msgid "Update Document"
+msgstr "Atualizar Documento"
+
+#: includes/mdocs-localization.php:20
+msgid "Updating Document"
+msgstr "Atualizando Documento"
+
+#: includes/mdocs-localization.php:18
+msgid "Are you sure you want continue.  All you files, posts and directories will be delete."
+msgstr "Confirma Continuar? Todos arquivos, postagens e pastas serão apagadas."
+
+#: includes/mdocs-localization.php:17
+msgid "Currently Memphis Documents Library only supports two sub categories."
+msgstr "Atualmente Biblioteca Documentos Memphis suporta duas sub categorias"
+
+#: includes/mdocs-localization.php:16
+msgid "Are you sure you want to navigate away from this page?"
+msgstr "Confirma Navegar e Abandonar essa página? Use nova Aba."
+
+#: includes/mdocs-localization.php:15
+msgid "New Folder"
+msgstr "Nova Pasta"
+
+#: includes/mdocs-localization.php:13
+msgid ""
+"You are about to delete this folder.  Any file in this folder will be lost!\n"
+"\n"
+"'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Confirme a exclusão dessa pasta. Todos arquivos nessa pasta serão perdidos\"\n"
+"\n"
+"'Cancelar' para Desistir, 'OK' para excluir."
+
+#: includes/mdocs-localization.php:12
+msgid ""
+"You are about to delete this version.  Once deleted you will lose this version of the file!\n"
+"\n"
+"'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Confirma a remoção dessa versão.  Quando removido será perdida essa versão do arquivo!\n"
+"\n"
+"'Cancela' para Parar, 'OK' para apagar."
+
+#: includes/mdocs-localization.php:11
+msgid ""
+"You are about to delete this file.  Once deleted you will lose this file!\n"
+"\n"
+"'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Confirme a exclusão desse arquivo. Quando removido esse arquivo estará perdido!\n"
+"\n"
+"'Cancelar' para Desistir, 'OK' para excluir."
+
+#: includes/mdocs-import.php:243
+msgid "File extension not allowed"
+msgstr "Extensão arquivo não permitida"
+
+#: includes/mdocs-import.php:79
+msgid "Old folder structure found, updated to the new folder structure.  It is recommened that you re-export you files again.  The process did finish."
+msgstr "Estrutura de pastas antigas encontradas, atualiza para nova estrutura. É recomendado exportar arquivos novamente. Processo encerrado."
+
+#: includes/mdocs-import.php:38
+msgid "Import Memphis Documents Library"
+msgstr "Importar Biblioteca Documentos Memphis"
+
+#: includes/mdocs-import.php:32
+msgid "Remember to always export any valuable data before doing an import."
+msgstr "Certifique-se de sempre exportar dados antes de executar a importação."
+
+#: includes/mdocs-import.php:31
+msgid "Add the Zip File"
+msgstr "Adic. Arq. Zip"
+
+#: includes/mdocs-import.php:26
+msgid "Please take great care in using this method as there is little to no return."
+msgstr "Favor prosseguir com cautela na utilização desse método, pois não há retorno."
+
+#: includes/mdocs-import.php:24
+msgid ""
+"This method deletes all files, posted and version on the current system. After the method has completed you will\n"
+"\t\t\t\t\t<br>get a list of all the conflicts that have occured make note of them."
+msgstr ""
+"Esse método apaga todos arquivos, postados e versionados existentes no sistema. Após completar esse método\n"
+"\t\t\t\t<br>obtenha uma lista de todos os conflitos que ocorrerem e tome nota disso."
+
+#: includes/mdocs-import.php:23
+msgid "Is a good when you have a empty documents library or you at looking to refresh your current library."
+msgstr "Deve ser usado quando biblioteca de documentos está vazia ou está tentando restaurar sua biblioteca atual."
+
+#: includes/mdocs-import.php:22 includes/mdocs-import.php:36
+msgid "Delete Old Files"
+msgstr "Apagar Arquivos Antigos"
+
+#: includes/mdocs-import.php:17
+msgid ""
+"Is the safest way to import.  This option keeps all your current files and only imports new ones. \n"
+"\t\t\t\t\t<br>If a file that is being imported matches one on the current system, the one on the current system will be left untouched,\n"
+"\t\t\t\t\t<br>and you will have to manually import these files."
+msgstr ""
+"Maneira mais segura de importar. Essa opção mantém todos seus arquivos atuais e somente importa os novos. \n"
+"\t\t\t\t<br> Se um arquivo que está sendo importado coincide com um do sistema, o do sistema não é modificado,\n"
+"\t\t\t\t<br>e as importações desses arquivos deverão ser feitas manualmente."
+
+#: includes/mdocs-import.php:16 includes/mdocs-import.php:35
+msgid "Keep Existing Files"
+msgstr "Manter Arquivo Existente"
+
+#: includes/mdocs-import.php:12
+msgid "There are two type of imports you can choose from."
+msgstr "Existem dois tipos de importação que pode ser feita."
+
+#: includes/mdocs-import.php:9
+msgid "Import Files"
+msgstr "Importar Arquivos"
+
+#: includes/mdocs-functions.php:974
+msgid "Not Right Now"
+msgstr "Não Agora."
+
+#: includes/mdocs-functions.php:973
+msgid "Run Updater"
+msgstr "Executar Atualização"
+
+#: includes/mdocs-functions.php:971
+msgid "DO NOT LEAVE PAGE ONCE THIS UPDATER HAS STARTER!"
+msgstr "NÃO SAIA DESTA PÁGINA QUANDO ATUALIZAÇÃO INICIAR!"
+
+#: includes/mdocs-functions.php:970
+msgid "You may run this process anytime by going to the Settings menu and pressing \"Run Preview and Thumbnail Updater\"."
+msgstr "Esse processo pode ser executado a qualquer hora, no Menu Configuração e clique \"Executar Atualiz. Visualização e Miniaturas\"."
+
+#: includes/mdocs-functions.php:969
+msgid "If you choose not to run this updater now preview will not work."
+msgstr "Se escolher não executar essa atualização agora, Visualizar não irá funcionar."
+
+#: includes/mdocs-functions.php:968
+msgid "The process depending on the size of your Library can take a long time, so make sure you have the time run this updater."
+msgstr "O processo depende do tamanho de sua Biblioteca pode levar muito tempo, certifique-se de dispor desse tempo para essa atualização."
+
+#: includes/mdocs-functions.php:967
+msgid "Important, Please Read"
+msgstr "Favor Ler é Importante"
+
+#: includes/mdocs-functions.php:966
+msgid "to work properly."
+msgstr "para funcionar adequadamente."
+
+#: includes/mdocs-functions.php:966
+msgid "This process requires an update to your Memphis Documents Library, which will be adding information needed for"
+msgstr "Esse processo requer atualização da Biblioteca Documentos Memphis, que irá adicionar informações necessárias para"
+
+#: includes/mdocs-functions.php:965 includes/mdocs-functions.php:966
+msgid "Box View"
+msgstr "Visualisar no Box"
+
+#: includes/mdocs-functions.php:965
+msgid "Version 3.0 of Memphis Documents Library now uses a new documents preview tool Called"
+msgstr "Versão 3.0 da Biblioteca Documentos Memphis agora usa uma nova app chamada"
+
+#: includes/mdocs-functions.php:964
+msgid "Document Preview Updater"
+msgstr "Atualizar Visualizador Documento"
+
+#: includes/mdocs-post-page.php:27
+msgid "No documents found in the Trash"
+msgstr "Nenhum Doc. na Lixeira."
+
+#: includes/mdocs-post-page.php:26
+msgid "No documents found"
+msgstr "Nenhum Doc. encontrado."
+
+#: includes/mdocs-post-page.php:25
+msgid "Search Documents"
+msgstr "Pesquisar Documentos"
+
+#: includes/mdocs-post-page.php:24
+msgid "View Documents"
+msgstr "Visualizar Documentos"
+
+#: includes/mdocs-post-page.php:23
+msgid "All Documents"
+msgstr "Todos Documentos"
+
+#: includes/mdocs-post-page.php:22
+msgid "New Documents"
+msgstr "Novo Doc."
+
+#: includes/mdocs-post-page.php:21
+msgid "Edit Documents"
+msgstr "Editar Documentos"
+
+#: includes/mdocs-post-page.php:20
+msgid "Add New Documents"
+msgstr "Adic. Novos Documentos"
+
+#: includes/mdocs-post-page.php:19
+msgid "Add New"
+msgstr "Adic. Novo"
+
+#: includes/mdocs-post-page.php:18
+msgctxt "mdocs"
+msgid "mdocs"
+msgstr "mdocs"
+
+#: includes/mdocs-post-page.php:17
+msgid "Memphis Documents Posts"
+msgstr "Posts Documentos Memphis"
+
+#: includes/mdocs-functions.php:772 includes/mdocs-settings-page.php:186
+msgid "Folders"
+msgstr "Pastas"
+
+#: includes/mdocs-functions.php:751
+msgid "Run Box View Preview and Thumbnail Updater"
+msgstr "Executar Visualizar Box View e Atualizar Miniaturas"
+
+#: includes/mdocs-functions.php:746
+msgid "Test Server Compatibility"
+msgstr "Testar Compatibilidade Servidor"
+
+#: includes/mdocs-functions.php:745 includes/mdocs-shortcodes.php:7
+#: includes/mdocs-shortcodes.php:12
+msgid "Short Codes"
+msgstr "Códigos Curtos"
+
+#: includes/mdocs-functions.php:744 includes/mdocs-restore-defaults.php:16
+msgid "Restore To Default"
+msgstr "Restaurar para Padrão"
+
+#: includes/mdocs-functions.php:743
+msgid "File System Cleanup"
+msgstr "Limpeza Sistema Arquivos"
+
+#: includes/mdocs-dashboard.php:20 includes/mdocs-functions.php:741
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/mdocs-functions.php:738
+msgid "Batch Upload"
+msgstr "Upload Batch."
+
+#: includes/mdocs-functions.php:737
+msgid "Export"
+msgstr "Exportar"
+
+#: includes/mdocs-functions.php:736
+msgid "Import"
+msgstr "Importar"
+
+#: includes/mdocs-functions.php:734
+msgid "Edit Folders"
+msgstr "Editar Pastas"
+
+#: includes/mdocs-functions.php:723
+msgid "Add New Document"
+msgstr "Adic. Novo Doc."
+
+#: includes/mdocs-functions.php:717
+msgid "Documents Library"
+msgstr "Biblioteca Documentos"
+
+#: includes/mdocs-doc-preview.php:63
+msgid "No preview type has been selected"
+msgstr "Nenhuma Visualização Selecionada"
+
+#: includes/mdocs-functions.php:517
+msgid "Memphis Info"
+msgstr "Info Memphis"
+
+#: includes/mdocs-functions.php:516
+msgid "Memphis Error"
+msgstr "Erro Memphis"
+
+#: includes/mdocs-functions.php:34 includes/mdocs-rights.php:119
+msgid "Preview"
+msgstr "Visualizar"
+
+#: includes/mdocs-functions.php:13 includes/mdocs-functions.php:37
+#: includes/mdocs-versions.php:20
+msgid "Versions"
+msgstr "Versões"
+
+#: includes/mdocs-functions.php:10 includes/mdocs-modals.php:148
+#: includes/mdocs-versions.php:35 includes/mdocs-versions.php:45
+#: includes/mdocs-versions.php:74
+msgid "Delete"
+msgstr "Apagar"
+
+#: includes/mdocs-functions.php:7
+msgid "Update"
+msgstr "Atualizar"
+
+#: includes/mdocs-find-lost-files.php:99
+msgid "Find Lost Files Process Complete."
+msgstr "Proc. Procura Arq. Perdidos Completo."
+
+#: includes/mdocs-find-lost-files.php:95
+msgid "A name conflict has occurred with the following file"
+msgstr "Conflito de nome ocorreu para o arquivo"
+
+#: includes/mdocs-find-lost-files.php:75
+msgid "Congratulations, you have no lost files."
+msgstr "Parabéns, não existem arquivos perdidos."
+
+#: includes/mdocs-find-lost-files.php:63
+msgid "Save Files"
+msgstr "Salvar Arquivos"
+
+#: includes/mdocs-find-lost-files.php:14
+msgid "Start File Search"
+msgstr "Iniciar Pesq. Arquivo"
+
+#: includes/mdocs-find-lost-files.php:13
+msgid "This process may take awhile so please be patient."
+msgstr "Esse processo pode levar algum tempo seja paciente."
+
+#: includes/mdocs-find-lost-files.php:12
+msgid "Once the system scan is complete you will see a list of lost files,  select the folder you would like them to be transferred to and click the save button.  Once complete all the lost files will be visible again."
+msgstr "Quando busca no sistema estiver completa, será apresentada uma lista de arquivos perdidos, selecione a pasta para a qual deseja que estes sejam transferidos e clique no botão Salvar. Quando completo todos os arquivos perdidos estarão visíveis novamente."
+
+#: includes/mdocs-find-lost-files.php:11
+msgid "Click the button below to run a scan of your Memphis Documents file system.  This scan will find files that may have been lost or moved to unknown locations."
+msgstr "Clique no botão abaixo para executar busca sistema de arquivos Documentos Memphis.  Procura irá analisar todos arquivos perdidos ou movidos para locais desconhecidos."
+
+#: includes/mdocs-find-lost-files.php:10
+msgid "Sometime files may get lost, this process will allow you to find some of those lost files."
+msgstr "Em alguns casos arquivos ficam perdidos, esse processo permite encontrar esses arq. perdidos."
+
+#: includes/mdocs-find-lost-files.php:7 includes/mdocs-functions.php:742
+msgid "Find Lost Files"
+msgstr "Procurar Arquivos Perdidos"
+
+#: includes/mdocs-filesystem-cleanup.php:90
+msgid "Cleanup The File System"
+msgstr "Limpar Sistema de Arquivos"
+
+#: includes/mdocs-filesystem-cleanup.php:70
+msgid "Below is a list of files and data that look to be broken and or unused by Memphis Documents Library.  The next phase of the process will try and remove all this unlinked information.<br>Please make sure you have made an export of the files before continuing.  If anything goes wrong just import your export file to revert all changes."
+msgstr "Abaixo está a lista de arquivos e dados que parecem estar desconectados ou sem uso na Biblioteca Documentos Memphis. A proxima fase do processo irá remover toda informação desconectada.<br>Certificar-se que tenha exportado os arquivos antes de continuar. Se algum imprevisto ocorrer apenas importe os backups para reverter isso."
+
+#: includes/mdocs-filesystem-cleanup.php:67
+msgid "Filesystem Analyzed"
+msgstr "Sistema Arquivos Analisado"
+
+#: includes/mdocs-filesystem-cleanup.php:55
+msgid "Run File System Cleanup Again"
+msgstr "Executar Limpeza Arquivos Sistema Novamente."
+
+#: includes/mdocs-filesystem-cleanup.php:48
+#: includes/mdocs-filesystem-cleanup.php:83
+msgid "There is no unlinked data."
+msgstr "Não há dados sem ligação."
+
+#: includes/mdocs-filesystem-cleanup.php:47
+#: includes/mdocs-filesystem-cleanup.php:81
+#: includes/mdocs-filesystem-cleanup.php:82
+msgid "Element ID"
+msgstr "ID Elemento"
+
+#: includes/mdocs-filesystem-cleanup.php:45
+#: includes/mdocs-filesystem-cleanup.php:79
+msgid "Unlinked Data"
+msgstr "Dados Sem Ligação"
+
+#: includes/mdocs-filesystem-cleanup.php:41
+#: includes/mdocs-filesystem-cleanup.php:75
+msgid "There are no unlinked files."
+msgstr "Não há arquivos sem ligação."
+
+#: includes/mdocs-filesystem-cleanup.php:37
+#: includes/mdocs-filesystem-cleanup.php:72
+msgid "Unlinked Files"
+msgstr "Arquivos sem ligação"
+
+#: includes/mdocs-filesystem-cleanup.php:35
+msgid "Your file system has been cleaned.  Remember if you encounter any issues revert back to your previous version using the import tool."
+msgstr "Seu sistema de arquivos foi limpo.  Caso encontre problemas reverta para posição anterior usando a função importar."
+
+#: includes/mdocs-filesystem-cleanup.php:32
+msgid "Filesystem Cleanup Complete"
+msgstr "Limpeza do Sistema de Arquivos"
+
+#: includes/mdocs-filesystem-cleanup.php:14
+msgid "Run Filesystem Cleanup"
+msgstr "Executar Limpeza Sistema Arquivos"
+
+#: includes/mdocs-filesystem-cleanup.php:12
+msgid "Use this functionality to run a system check to locate and remove any broken files/data links inside Memphis Documents Library.<br>Be sure to make a backup copy before running this check."
+msgstr "Usar essa funcionalidade para sistema localizar e remover ligações arquivos ou dados quebrados dentro da Biblioteca Documentos Memphis.<br>.Certifique-se de ter feito backup antes de executar esse processo."
+
+#: includes/mdocs-filesystem-cleanup.php:8
+msgid "Filesystem Cleanup"
+msgstr "Sistema Arquivos Limpo"
+
+#: includes/mdocs-file-info-small.php:79 includes/mdocs-functions.php:740
+msgid "Admin Options"
+msgstr "Opções Admin"
+
+#: includes/mdocs-file-info-small.php:68 includes/mdocs-functions.php:733
+#: includes/mdocs-settings-page.php:254
+msgid "File Options"
+msgstr "Opções Arquivo"
+
+#: includes/mdocs-file-info-small.php:12 includes/mdocs-file-info-small.php:120
+msgid "Scheduled"
+msgstr "Agendar"
+
+#: includes/mdocs-post-page.php:160 includes/mdocs-settings-page.php:286
+#: includes/mdocs-widgets.php:19
+msgid "Last Updated"
+msgstr "Última Atualiz."
+
+#: includes/mdocs-dashboard.php:272 includes/mdocs-options.php:60
+#: includes/mdocs-post-page.php:157 includes/mdocs-settings-page.php:285
+msgid "Author"
+msgstr "Autor"
+
+#: includes/mdocs-batch-file-methods.php:109 includes/mdocs-options.php:57
+#: includes/mdocs-post-page.php:156
+msgid "Downloads"
+msgstr "Downloads"
+
+#: includes/mdocs-post-page.php:155
+msgid "Stars"
+msgstr "Estrelas"
+
+#: includes/mdocs-post-page.php:142 includes/mdocs-ratings.php:12
+msgid "Your Rating"
+msgstr "Sua Avaliação"
+
+#: includes/mdocs-post-page.php:141 includes/mdocs-ratings.php:11
+msgid "Rate Me!"
+msgstr "Avalie!"
+
+#: includes/mdocs-doc-preview.php:199 includes/mdocs-doc-preview.php:211
+#: includes/mdocs-doc-preview.php:240 includes/mdocs-file-info-small.php:134
+#: includes/mdocs-options.php:63 includes/mdocs-post-page.php:133
+#: includes/mdocs-rights.php:101 includes/mdocs-settings-page.php:164
+#: includes/mdocs-social.php:9 includes/mdocs-social.php:32
+#: includes/mdocs-versions.php:34 includes/mdocs-versions.php:44
+#: includes/mdocs-versions.php:54 includes/mdocs-versions.php:73
+msgid "Download"
+msgstr "Download"
+
+#: includes/mdocs-post-page.php:131 includes/mdocs-post-page.php:135
+msgid "Please Login to download this file"
+msgstr "Favor efeturar Login para baixar esse arquivo"
+
+#: includes/mdocs-post-page.php:129
+msgid "This file can not<br>be downloaded."
+msgstr "Esse arquivo não <br> pode ser baixado."
+
+#: includes/mdocs-file-info-small.php:25 includes/mdocs-post-page.php:116
+msgid "Updated"
+msgstr "Atualizado"
+
+#: includes/mdocs-file-info-small.php:22 includes/mdocs-post-page.php:115
+msgid "New"
+msgstr "Novo"
+
+#: includes/mdocs-downloads.php:127
+msgid "was not found, file not exported."
+msgstr "não foi encontrado, arquivo não exportado."
+
+#: includes/mdocs-export.php:21
+msgid "Export Memphis Documents Library"
+msgstr "Exportar Biblioteca Documentos Memphis"
+
+#: includes/mdocs-export.php:13
+msgid "Export Files"
+msgstr "Exportar Arquivos"
+
+#: includes/mdocs-downloads.php:81
+msgid "Sorry you are unauthorized to download this file."
+msgstr "Desculpas, mas não pode ser feito download do arquivo."
+
+#: includes/mdocs-downloads.php:65
+msgid "was not found, please contact the owner for assistance."
+msgstr "não foi encontrado, favor contactar o gestor para assistência."
+
+#: includes/mdocs-downloads.php:63
+msgid "was not found, no preview created for this file."
+msgstr "não foi encontrado, favor contactar o gestor para assistência."
+
+#: includes/mdocs-downloads.php:63 includes/mdocs-downloads.php:65
+#: includes/mdocs-downloads.php:127
+msgid "Memphis Documents Error"
+msgstr "Memphis Docs Erro"
+
+#: includes/mdocs-doc-preview.php:34
+msgid "Preview is unavailable for this file."
+msgstr "Visualizar não está disponível para esse arquivo."
+
+#: includes/mdocs-dashboard.php:315 includes/mdocs-functions.php:31
+#: includes/mdocs-options.php:56 includes/mdocs-rights.php:127
+#: includes/mdocs-shortcodes.php:13
+msgid "Description"
+msgstr "Descrição"
+
+#: includes/mdocs-dashboard.php:285
+msgid "Comma Separated List"
+msgstr "Lista Separada por Vírgula"
+
+#: includes/mdocs-dashboard.php:283
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/mdocs-dashboard.php:263
+msgid "Add contributor, users and roles types are allowed."
+msgstr "Adic. tipos permitidos: contribuidor, usuários e função."
+
+#: includes/mdocs-batch-file-methods.php:26 includes/mdocs-dashboard.php:256
+msgid "Contributors"
+msgstr "Contribuidores"
+
+#: includes/mdocs-batch-file-methods.php:111 includes/mdocs-dashboard.php:243
+msgid "Downloadable by Non Members"
+msgstr "Download por Não Membros"
+
+#: includes/mdocs-dashboard.php:234
+msgid "Show Social Apps"
+msgstr "Exibir Apps Social"
+
+#: includes/mdocs-batch-file-methods.php:113 includes/mdocs-dashboard.php:217
+#: includes/mdocs-file-info-small.php:90 includes/mdocs-post-page.php:163
+msgid "Post Status"
+msgstr "Status Post"
+
+#: includes/mdocs-batch-file-methods.php:112 includes/mdocs-dashboard.php:203
+#: includes/mdocs-file-info-small.php:89 includes/mdocs-post-page.php:162
+msgid "File Status"
+msgstr "Status Arquivo"
+
+#: includes/mdocs-dashboard.php:194
+msgid "File Uploader"
+msgstr "Carregador Arquivo"
+
+#: includes/mdocs-dashboard.php:184
+msgid "Date"
+msgstr "Data"
+
+#: includes/mdocs-dashboard.php:148
+msgid "File Properties"
+msgstr "Propriedades Arquivo"
+
+#: includes/mdocs-dashboard.php:134
+msgid "loading"
+msgstr "carregando"
+
+#: includes/mdocs-dashboard.php:121
+msgid "[ Edit Type ]"
+msgstr "[ Tipo Edic. ]"
+
+#: includes/mdocs-dashboard.php:120
+msgid "[ Index Value ]"
+msgstr "[ Valor Índice ]"
+
+#: includes/mdocs-dashboard.php:119
+msgid "Index value not found, something has gone wrong."
+msgstr "Valor índice não encontrado, algo está errado."
+
+#: includes/mdocs-dashboard.php:115
+msgid "[ File Owner ]"
+msgstr "[ Dono Arq. ]"
+
+#: includes/mdocs-dashboard.php:114
+msgid "The permission of this file have changed and you no longer have acces to it, please contact the ower of the file."
+msgstr "A permissão desse tipo de arquivo mudou e não há mais acesso ao mesmo, favor contactar o gestor."
+
+#: includes/mdocs-dashboard.php:19
+msgid "Memphis Docs"
+msgstr "Memphis Docs"
+
+#. #-#-#-#-#  memphis-documents-library-code.pot (Memphis Documents Library
+#. 3.7.2.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/mdocs-dashboard.php:19 includes/mdocs-functions.php:963
+msgid "Memphis Documents Library"
+msgstr "Biblioteca Documentos Memphis"
+
+#: includes/mdocs-categories.php:173
+msgid "Input variables sent"
+msgstr "Variável Entrada Enviada"
+
+#: includes/mdocs-categories.php:53
+msgid "Save Folders"
+msgstr "Salvar Pastas"
+
+#: includes/mdocs-categories.php:45
+msgid "No folders created."
+msgstr "Nenhuma Pasta Criada."
+
+#: includes/mdocs-categories.php:24 includes/mdocs-categories.php:32
+#: includes/mdocs-categories.php:90 includes/mdocs-localization.php:19
+msgid "Add Folder"
+msgstr "Adic. Pasta"
+
+#: includes/mdocs-categories.php:23 includes/mdocs-categories.php:31
+#: includes/mdocs-localization.php:14
+msgid "Remove"
+msgstr "Apagar"
+
+#: includes/mdocs-categories.php:22 includes/mdocs-categories.php:30
+msgid "Order"
+msgstr "Classif."
+
+#: includes/mdocs-batch-file-methods.php:25
+#: includes/mdocs-batch-file-methods.php:114 includes/mdocs-categories.php:21
+#: includes/mdocs-categories.php:29 includes/mdocs-dashboard.php:159
+msgid "Folder"
+msgstr "Pasta"
+
+#: includes/mdocs-categories.php:14
+msgid "Add Main Folder"
+msgstr "Adic. Pasta Principal"
+
+#: includes/mdocs-categories.php:14 includes/mdocs-folder-editor.php:9
+msgid "Folder Editor"
+msgstr "Editor de Pastas"
+
+#: includes/mdocs-batch-upload.php:228
+msgid "The batch process has completed, below is a log of results:"
+msgstr "Processo batch foi completado, abaixo log dos resultados:"
+
+#: includes/mdocs-batch-upload.php:222
+msgid "Batch Process Complete."
+msgstr "Processamento Batch Completado."
+
+#: includes/mdocs-batch-upload.php:218
+msgid "Cleaning up tmp folder and files"
+msgstr "Limpar pastas e arquivos temporários"
+
+#: includes/mdocs-batch-upload.php:209 includes/mdocs-batch-upload.php:213
+msgid "File Was Not Uploaded because an Error occured."
+msgstr "Upload de Arquivo não concluído pois houve um erro."
+
+#: includes/mdocs-batch-upload.php:212
+msgid " Unable to process file."
+msgstr " Não processou arquivo."
+
+#: includes/mdocs-batch-upload.php:212
+msgid "Invalid Mime Type => "
+msgstr "Inválido Tipo Mime =>"
+
+#: includes/mdocs-batch-upload.php:207
+msgid "File Uploaded with No Errors."
+msgstr "Upload de Arquivo com sucesso."
+
+#: includes/mdocs-batch-upload.php:206
+msgid "Mime Type Allowed => "
+msgstr "Tipos Mime Permit. => "
+
+#: includes/mdocs-batch-upload.php:169
+msgid "Processed File => "
+msgstr "Arq. Processado => "
+
+#: includes/mdocs-batch-upload.php:121
+msgid "Complete"
+msgstr "Completo"
+
+#: includes/mdocs-batch-file-methods.php:19
+#: includes/mdocs-batch-file-methods.php:108 includes/mdocs-dashboard.php:173
+#: includes/mdocs-doc-preview.php:209 includes/mdocs-options.php:58
+#: includes/mdocs-post-page.php:158 includes/mdocs-settings-page.php:284
+#: includes/mdocs-versions.php:32 includes/mdocs-versions.php:42
+msgid "Version"
+msgstr "Versão"
+
+#: includes/mdocs-batch-upload.php:104 includes/mdocs-find-lost-files.php:48
+msgid "KB"
+msgstr "KB"
+
+#: includes/mdocs-dashboard.php:151 includes/mdocs-settings-page.php:282
+msgid "File Name"
+msgstr "Nome Arquivo"
+
+#: includes/mdocs-batch-upload.php:68 includes/mdocs-batch-upload.php:139
+#: includes/mdocs-batch-upload.php:238
+msgid "Upload Zip File"
+msgstr "Upload Arquivo Zip"
+
+#: includes/mdocs-batch-upload.php:63 includes/mdocs-batch-upload.php:133
+#: includes/mdocs-batch-upload.php:233
+msgid "Default Folder"
+msgstr "Pasta Padrão"
+
+#: includes/mdocs-batch-upload.php:59
+msgid "NOTE: Depending on the amout of files, batch upload can take a long time, please be patient."
+msgstr "NOTA: Dependendo da quantidade de arquivos, carga batch pode levar longo tempo, favor ser paciente."
+
+#: includes/mdocs-batch-upload.php:51
+msgid "Create a zip file of all the documents you want to upload.  You may name the file whatever you want.  Once you have created the file, simply upload it, then use the quick select form to place the files in the proper directory.  Once satisfied press the 'Complete' button to finsh the process."
+msgstr "Criar um arquivo zip de todos os documentos que deseja subir. Pode usar o nome que desejar. Após a criação do arquivo, faça o upload e então use o formulário de seleção rápida, para armazenar os arquivos nos diretórios que desejar. Quando satisfeito, pressione o botão 'Completar' para finalizar o processo."
+
+#: includes/mdocs-batch-upload.php:46
+msgid "Batch Library Upload"
+msgstr "Upload Biblioteca em Batch"
+
+#: includes/mdocs-batch-file-methods.php:253
+msgid "Previous Versions"
+msgstr "Versões Prévias"
+
+#: includes/mdocs-batch-file-methods.php:227
+msgid "Are you sure you want to delete these files"
+msgstr "Confirma remoção desses arquivos"
+
+#: includes/mdocs-batch-file-methods.php:222 includes/mdocs-functions.php:726
+msgid "Batch Delete"
+msgstr "Remoção em Batch"
+
+#: includes/mdocs-batch-file-methods.php:169
+msgid "List of files"
+msgstr "Lista de Arquivos"
+
+#: includes/mdocs-batch-file-methods.php:165
+msgid "Select the folder you want to transfer the files to"
+msgstr "Selecione Pasta para a qual deseja transferir os arquivos"
+
+#: includes/mdocs-batch-file-methods.php:159 includes/mdocs-functions.php:725
+msgid "Batch Move"
+msgstr "Mover em Batch"
+
+#: includes/mdocs-batch-file-methods.php:69 includes/mdocs-dashboard.php:223
+msgid "Draft"
+msgstr "Rascunho"
+
+#: includes/mdocs-batch-file-methods.php:68 includes/mdocs-dashboard.php:222
+msgid "Pending Review"
+msgstr "Revisão Pendente"
+
+#: includes/mdocs-batch-file-methods.php:67 includes/mdocs-dashboard.php:221
+msgid "Private"
+msgstr "Privado"
+
+#: includes/mdocs-batch-file-methods.php:66 includes/mdocs-dashboard.php:220
+msgid "Published"
+msgstr "Publicado"
+
+#: includes/mdocs-batch-file-methods.php:61 includes/mdocs-dashboard.php:207
+msgid "Hidden"
+msgstr "Oculto"
+
+#: includes/mdocs-batch-file-methods.php:60 includes/mdocs-dashboard.php:206
+msgid "Public"
+msgstr "Público"
+
+#: includes/mdocs-batch-file-methods.php:7 includes/mdocs-functions.php:724
+msgid "Batch Edit"
+msgstr "Edição Batch"
+
+#: includes/mdocs-allowed-file-types.php:39
+msgid "Restore Default File Types"
+msgstr "Restaurar Tipos Arquivos Padrão"
+
+#: includes/mdocs-allowed-file-types.php:38
+msgid "List of Files and Their Mime Types"
+msgstr "Listar todos Arquivos Mime Types"
+
+#: includes/mdocs-allowed-file-types.php:35 includes/mdocs-update-mime.php:42
+msgid "add"
+msgstr "adic."
+
+#: includes/mdocs-allowed-file-types.php:28
+msgid "remove"
+msgstr "apagar"
+
+#: includes/mdocs-allowed-file-types.php:23 includes/mdocs-functions.php:731
+#: includes/mdocs-update-mime.php:30
+msgid "Options"
+msgstr "Opções"
+
+#: includes/mdocs-allowed-file-types.php:22 includes/mdocs-update-mime.php:29
+msgid "Mime Type"
+msgstr "Mime Type"
+
+#: includes/mdocs-allowed-file-types.php:21 includes/mdocs-update-mime.php:28
+msgid "Extension"
+msgstr "Extensão"
+
+#: includes/mdocs-allowed-file-types.php:14 includes/mdocs-functions.php:735
+msgid "Allowed File Types"
+msgstr "Tipos Arq. Permitidos"
+
+#: includes/mdocs-allowed-file-types.php:9
+msgid "Allow File Types"
+msgstr "Permitir Tipo Arq."
