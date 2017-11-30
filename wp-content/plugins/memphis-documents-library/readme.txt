@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.5
 Tested up to: 4.8
-Stable tag: 3.7.2.2
+Stable tag: 3.7.3
 
 A documents library for WordPress.
 
@@ -14,9 +14,22 @@ A documents library for WordPress.
 
 Memphis Documents Library (mDocs) is a  documents library for WordPress with a robust feature set.  It is a great tool for the organization and distribution of files.
 
-= What's New With Version 3.7.2.2 =
+= What's New With Version 3.7.3 =
 
-* *Bug* - Remove alert in javascript.
+* *New* - Added code to remove the social scripts if not in use.
+* *New* - You can now delete the Documents page without it recreating itself over and over again.
+* *New* - Added the ability to add excerpts to your mDocs posts.
+* *New* - Added new file information "File Size", this is off by default.
+* *Update* - More permission changes.
+* *Update* - Change the label 'Author' to 'Owner' on the mDocs post page.
+* *Update* - Prettified the file sizes.
+* *Update* - Removed an unwanted variable.
+* *Bug* - Fixed bbpress bug where there was a warning about a string.
+* *Bug* - Fixed issue with setting page and a null value.
+* *Bug* - Removed redundant mdocs_load_modals function.
+* *Bug* - Fix issue with search functionality.
+* *Bug* - Fixed issue with null object.
+* *Bug* - Minor fix to mDocs post page.
 
 = Memphis Documents Library Features =
 
@@ -64,7 +77,7 @@ Memphis Documents Library (mDocs) is a  documents library for WordPress with a r
 * Feature - have a button that will add shortcode directly in editing posts.
 * Feature - Allow other users access to mDocs admin menus.
 * Feature - Have the post open in a modal instead of going to the page directly.
-* Feature - Have a in application pdf preview.
+* Feature - Have an in application pdf preview.
 
 == Frequently Asked Questions ==
 
@@ -151,6 +164,23 @@ Once uploaded the configuration menu is located in either the "Memphis" menu wit
 8. screenshot-8.png
 
 == Changelog ==
+
+= 3.7.3 =
+
+* *New* - Added code to remove the social scripts if not in use.
+* *New* - You can now delete the Documents page without it recreating itself over and over again.
+* *New* - Added the ability to add excerpts to your mDocs posts.
+* *New* - Added new file information "File Size", this is off by default.
+* *Update* - More permission changes.
+* *Update* - Change the label 'Author' to 'Owner' on the mDocs post page.
+* *Update* - Prettified the file sizes.
+* *Update* - Removed an unwanted variable.
+* *Bug* - Fixed bbpress bug where there was a warning about a string.
+* *Bug* - Fixed issue with setting page and a null value.
+* *Bug* - Removed redundant mdocs_load_modals function.
+* *Bug* - Fix issue with search functionality.
+* *Bug* - Fixed issue with null object.
+* *Bug* - Minor fix to mDocs post page.
 
 = 3.7.2.2 =
 

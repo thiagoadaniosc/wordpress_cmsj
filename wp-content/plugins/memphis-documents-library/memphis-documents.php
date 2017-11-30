@@ -4,11 +4,11 @@ Plugin Name: Memphis Documents Library
 Plugin URI: http://www.kingofnothing.net/memphis-documents-library/
 Description: A documents repository for WordPress. 
 Author: Ian Howatson
-Version: 3.7.2.2
+Version: 3.7.3
 Text Domain: memphis-documents-library
 Domain Path: /languages
 Author URI: http://www.kingofnothing.net/
-Date: 10/20/2017
+Date: 11/22/2017
 
 Copyright 2017 Ian Howatson  (email : ian@howatson.net)
 
@@ -27,7 +27,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 // ********** MEMPHIS DOCUMENTS DEVELOPMENT *********************//
 define('MDOCS_DEV', false);
-define('MDOCS_SESSION_ID', md5('Memphis Documents Library Version 3.7.2.1'));
+define('MDOCS_SESSION_ID', md5('Memphis Documents Library Version 3.7.3'));
 define('MDOC_PATH',plugin_dir_path(__FILE__));
 define('MDOC_URL',plugin_dir_url(__FILE__));
 define('MDOCS_INCLUDE_PATH', 'includes/');
@@ -63,6 +63,7 @@ include MDOCS_INCLUDE_PATH.'mdocs-server-compatibility.php';
 include MDOCS_INCLUDE_PATH.'mdocs-settings-page.php';
 include MDOCS_INCLUDE_PATH.'mdocs-settings.php';
 include MDOCS_INCLUDE_PATH.'mdocs-shortcodes.php';
+include MDOCS_INCLUDE_PATH.'mdocs-show-file-info-templates.php';
 include MDOCS_INCLUDE_PATH.'mdocs-social.php';
 include MDOCS_INCLUDE_PATH.'mdocs-sort.php';
 include MDOCS_INCLUDE_PATH.'mdocs-the-list.php';

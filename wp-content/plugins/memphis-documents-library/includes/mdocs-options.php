@@ -50,18 +50,10 @@ function mdocs_init_settings() {
 	add_option('mdocs-show-preview', true);
 	register_setting('mdocs-global-settings', 'mdocs-show-versions');
 	add_option('mdocs-show-versions', true);
-	// TABLE OPTIONS
-	register_setting('mdocs-global-settings', 'mdocs-displayed-file-info');
-	add_option('mdocs-displayed-file-info',array(
-												'show-description' => array('show' => false, 'slug' => 'desc', 'text' =>  __('Description', 'memphis-documents-library'), 'icon' => '', 'color' => '', 'function' => 'mdocs_display_description'),
-												'show-downloads' => array('show' => true, 'slug' => 'downloads', 'text' =>  __('Downloads', 'memphis-documents-library'), 'icon' => 'fa fa-cloud-download', 'color' => 'mdocs-orange', 'function' => 'mdocs_display_downloads'),
-												'show-version' => array('show' => true, 'slug' => 'version', 'text' =>  __('Version', 'memphis-documents-library'), 'icon' => 'fa fa-power-off', 'color' => 'mdocs-blue', 'function' => 'mdocs_display_version'),
-												'show-author' => array('show' => true, 'slug' => 'owner', 'text' =>  __('Owner', 'memphis-documents-library'), 'icon' => 'fa fa-pencil', 'color' => 'mdocs-green', 'function' => 'mdocs_display_owner'),
-												'show-real-author' => array('show' => false, 'slug' => 'real-author', 'text' =>  __('Author', 'memphis-documents-library'), 'icon' => '', 'color' => '', 'function' => 'mdocs_display_real_author'),
-												'show-update' => array('show' => true, 'slug' => 'modified', 'text' =>  __('Last Modified', 'memphis-documents-library'), 'icon' => 'fa fa-calendar', 'color' => 'mdocs-red', 'function' => 'mdocs_display_updated'),
-												'show-ratings' => array('show' => true, 'slug' => 'rating', 'text' =>  __('Rating', 'memphis-documents-library'), 'icon' => '', 'color' => '', 'function' => 'mdocs_display_rating'),
-												'show-download-btn' => array('show' => true, 'slug' => 'download', 'text' =>  __('Download', 'memphis-documents-library'), 'icon' => 'fa fa-download', 'color' => '', 'function' => 'mdocs_display_download_btn'),
-											));
+	
+	// INITIALIZATION OF DOCUMENTS PAGE
+	register_setting('mdocs-global-settings', 'mdocs-documents-page-created');
+	add_option('mdocs-documents-page-created', false);
 	
 	register_setting('mdocs-global-settings', 'mdocs-show-share');
 	add_option('mdocs-show-share', true);

@@ -4,6 +4,7 @@ function mdocs_shortcode($att, $content=null) { return mdocs_the_list($att); }
 function mdocs_the_list($att=null) {
 	global $post;
 	ob_start();
+	mdocs_load_modals();
 	if(mdocs_check_read_write() == false) mdocs_errors(__('Unable to create the directory "mdocs" which is needed by Memphis Documents Library. Its parent directory is not writable by the server?','memphis-documents-library'),'error');
 	$mdocs = get_option('mdocs-list');
 	$mdocs = mdocs_array_sort();

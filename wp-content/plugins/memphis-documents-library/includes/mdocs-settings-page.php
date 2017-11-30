@@ -303,7 +303,8 @@ function mdocs_settings() {
 			<h5><?php _e('Table View Settings','memphis-documents-library'); ?></h5>
 			<?php
 			foreach(get_option('mdocs-displayed-file-info') as $key => $option) {
-				if($option['show']) $checked = "checked='checked'";
+				if(!array_key_exists('show',$option)) $option['show'] = false;
+				if(!empty($option['show']) && $option['show']) $checked = "checked='checked'";
 				else $checked = '';
 				?>
 				<input type="hidden" name="mdocs-displayed-file-info[<?php echo $key; ?>][slug]" value="<?php echo $option['slug']; ?>" />
@@ -313,6 +314,7 @@ function mdocs_settings() {
 				<input type="hidden" name="mdocs-displayed-file-info[<?php echo $key; ?>][function]" value="<?php echo $option['function']; ?>" />
 				<input type="checkbox" name="mdocs-displayed-file-info[<?php echo $key; ?>][show]" value="1"  <?php echo $checked; ?>/> <?php echo __('Show','memphis-documents-library').' '.$option['text']; ?><br>
 				<?php
+				
 			}
 			?>
 			<h5><?php _e('Dropdown and Post Page Settings','memphis-documents-library'); ?></h5>

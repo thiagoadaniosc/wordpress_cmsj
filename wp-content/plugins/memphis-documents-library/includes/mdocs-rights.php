@@ -44,12 +44,12 @@ function mdocs_check_post_rights($the_mdoc) {
 	$post_status = get_post_status($the_mdoc['parent']);
 	$is_allow = false;
 	// ADMINS GET FULL RIGHTS FOR EVERY FILE
-	if(current_user_can( 'manage_options' )) $is_allowed = true;
+	if(current_user_can( 'manage_options' ) && is_admin()) $is_allowed = true;
 	// OWNER RIGHTS
-	if($current_user->user_login == $the_mdoc['owner']) $is_allowed = true;
+	if($current_user->user_login == $the_mdoc['owner'] && is_admin()) $is_allowed = true;
 	// VIEW PRIVATE POSTS
 	foreach($current_user->roles as $index => $role) {
-		if(array_key_exists($role, $mdocs_view_private)) {
+		if(array_key_exists($role, $mdocs_view_private) && is_admin()) {
 			if($mdocs_view_private[$role]) $is_allow = true;
 		}
 	}

@@ -107,7 +107,7 @@ function mdocs_ajax_processing() {
 				else die(__('You are unauthorized to do this.', 'memphis-documents-library'));
 				break;
 			case 'search-users':
-				if(current_user_can('manage_options')) mdocs_search_users($_POST['user-search-string'], $_POST['owner'], $_POST['contributors']);
+				if(current_user_can('mdocs-dashboard')) mdocs_search_users($_POST['user-search-string'], $_POST['owner'], $_POST['contributors']);
 				else die(__('You are unauthorized to do this.', 'memphis-documents-library'));
 				break;
 			case 'show-social':

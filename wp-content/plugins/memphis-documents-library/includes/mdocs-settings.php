@@ -31,7 +31,7 @@ function mdocs_register_settings() {
 		elseif(!is_dir($upload_dir['basedir'].'/mdocs/') && $upload_dir['error'] !== false) mdocs_errors(__('Unable to create the directory "mdocs" which is needed by Memphis Documents Library. Is its parent directory writable by the server?','memphis-documents-library'),'error');
 		//CREATE MDOCS PAGE
 		$query = new WP_Query('pagename=mdocuments-library');	
-		if(empty($query->posts) && empty($query->queried_object) ) {
+		if(empty($query->posts) && empty($query->queried_object) && get_option('mdocs-documents-page-created') == false) {
 			$mdocs_page = array(
 				'post_title' => __('Documents','memphis-documents-library'),
 				'post_name' => 'mdocuments-library',
@@ -41,11 +41,14 @@ function mdocs_register_settings() {
 				'post_type' => 'page',
 				'comment_status' => 'closed'
 			);
-			$mdocs_post_id = wp_insert_post( $mdocs_page );	
+			$mdocs_post_id = wp_insert_post( $mdocs_page );
+			update_option('mdocs-documents-page-created', true);
 		}
 		if(!is_dir($upload_dir['basedir'].'/mdocs-ftp/') && $upload_dir['error'] === false) mkdir($upload_dir['basedir'].'/mdocs-ftp/');
 		//REGISTER SAVED VARIABLES
 		mdocs_init_settings();
+		// REGISTER TABLE SHOW OPTIONS
+		mdocs_show_file_info_templates();
 		$upload_dir = wp_upload_dir();
 		if(!file_exists($upload_dir['basedir'].'/mdocs/.htaccess')) {
 			if(!file_exists($upload_dir['basedir'].'/mdocs/')) mkdir($upload_dir['basedir'].'/mdocs/');
@@ -218,7 +221,6 @@ function mdocs_document_ready_wp() {
 			});	
 		</script>
 	<?php
-			mdocs_load_modals();
 		}
 	}
 	

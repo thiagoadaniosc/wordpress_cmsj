@@ -4,6 +4,16 @@ function mdocs_patches() {
 	if(!isset($_GET['restore-default'])) {
 		$patches = get_option('mdocs-patches');
 		// PATCHES
+		// 3.7.3 patch 1
+		register_setting('mdocs-patch-vars', 'mdocs-v3-7-3-patch-var-1');
+		add_option('mdocs-v3-7-3-patch-var-1',false);
+		if(get_option('mdocs-v3-7-3-patch-var-1') == false && is_array(get_option('mdocs-list'))) {
+			$show_options = get_option('mdocs-displayed-file-info');
+			$show_options['show-file-size'] = array('show' => false, 'slug' => 'file-size', 'text' =>  __('File Size', 'memphis-documents-library'), 'icon' => 'fa fa-file-text-o', 'color' => '', 'function' => 'mdocs_display_file_size');
+			update_option('mdocs-displayed-file-info', $show_options);
+			update_option('mdocs-v3-7-3-patch-var-1', true);
+		}
+		// PATCHES
 		// 3.7.1 patch 1
 		register_setting('mdocs-patch-vars', 'mdocs-v3-7-1-patch-var-1');
 		add_option('mdocs-v3-7-1-patch-var-1',false);

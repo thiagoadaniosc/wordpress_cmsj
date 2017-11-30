@@ -90,7 +90,6 @@ function mdocs_batch_upload($current_cat) {
 					</tr>
 				<?php
 				foreach($zip_result['file'] as $index => $zip_file) {
-					$filesize_mb = number_format(round(filesize($zip_file)/1024,0));
 					$file = basename(sanitize_text_field($zip_file));
 					if(get_option('mdocs-convert-to-latin')) $filename = mdocs_filenames_to_latin($file);
 					else $filename = $file;
@@ -101,7 +100,7 @@ function mdocs_batch_upload($current_cat) {
 						<td>
 							<input type="hidden" name="mdocs[filename][<?php echo $index; ?>]" value="<?php echo $filename; ?>" />
 							<input type="hidden" name="mdocs[tmp-file][<?php echo $index; ?>]" value="<?php echo $zip_file; ?>" />
-							<input type="text" name="mdocs[name][<?php echo $index; ?>]" value="<?php echo $file; ?>"/> <?php echo $filesize_mb.' '.__('KB','memphis-documents-library'); ?>
+							<input type="text" name="mdocs[name][<?php echo $index; ?>]" value="<?php echo $file; ?>"/> <?php echo mdocs_convert_bytes(filesize($zip_file)); ?>
 						</td>
 						<td>
 							<select name="mdocs[cat][<?php echo $index; ?>]">

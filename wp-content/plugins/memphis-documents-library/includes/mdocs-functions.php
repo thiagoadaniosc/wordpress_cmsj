@@ -359,7 +359,6 @@ function mdocs_process_file($file, $import=false) {
 				'post_status' => $post_status,
 				'post_content' => '[mdocs_post_page new=true]',
 				'post_author' => $current_user->ID,
-				//'post_excerpt' => $desc,
 				'post_date' => $the_date['wp-date'],
 				'post_date_gmt' => $the_date['wp-gmdate'],
 				'post_type' => 'mdocs-posts',
@@ -393,7 +392,6 @@ function mdocs_process_file($file, $import=false) {
 				'post_status' =>$post_status,
 				'post_content' => '[mdocs_post_page]',
 				'post_author' => $current_user->ID,
-				//'post_excerpt' => $desc,
 				'post_date' => $the_date['wp-date'],
 				'post_date_gmt' => $the_date['wp-gmdate'],
 			);
@@ -408,7 +406,6 @@ function mdocs_process_file($file, $import=false) {
 				'post_mime_type' => $wp_filetype['type'],
 				'post_title' => $upload['name'],
 				'post_content' => '[mdocs_media_attachment]',
-				//'post_author' => $current_user->ID,
 				'post_status' => 'inherit',
 				'post_date' => $the_date['wp-date'],
 				'post_date_gmt' => $the_date['wp-gmdate'],
@@ -836,27 +833,10 @@ function mdocs_get_posts( $query ) {
 }
 // HIDES OR SHOWS MDOCS POST IN SEARCH
 function mdocs_alter_searchfilters($query) {
-	if(get_option('mdocs-hide-all-posts') == false && get_option('mdocs-hide-all-posts-non-members') == false) {
-		if ($query->is_search && !is_admin() ) {
-			if($query->get('post_type') == null) {
-				$query->set('post_type',array('post', 'page','mdocs-posts'));
-			} else {
-				$post_types = $query->get('post_type');
-				array_push($post_types, 'mdocs-posts');
-				$query->set('post_type',$post_types);
-			}
-		}
-	} else {
-		if ($query->is_search && !is_admin() ) {
-			if($query->get('post_type') == null) {
-				if(get_option('mdocs-hide-all-posts-non-members') && is_user_logged_in()) $query->set('post_type',array('post', 'page','mdocs-posts'));
-				else $query->set('post_type',array('post', 'page'));
-			} else {
-				$post_types = $query->get('post_type');
-				if(get_option('mdocs-hide-all-posts-non-members') && is_user_logged_in()) array_push($post_types, 'mdocs-posts');
-				$query->set('post_type',$post_types);
-			}
-			
+	if($query->is_search && !is_admin() && $query->is_main_query() && post_type_exists('mdocs-posts')) {
+		if(get_option('mdocs-hide-all-posts') || get_option('mdocs-hide-all-posts-non-members') && is_user_logged_in() == false) {
+			global $wp_post_types;
+			$wp_post_types['mdocs-posts']->exclude_from_search = true;
 		}
 	}
 	return $query;
@@ -894,7 +874,7 @@ function mdocs_robust_search( $where ) {
 		global $wp_query;
 		if( isset( $wp_query->query_vars['s'] ) && $wp_query->query_vars['s'] != '') {
 			$mdocs = get_option('mdocs-list');
-			$search_value = $wp_query->query_vars['s'];
+			$search_value = trim($wp_query->query_vars['s']);
 			$args = array();
 			foreach($mdocs as $index => $the_mdoc) {
 				if( !empty($mdocs) && strpos(strtolower($the_mdoc['filename']), strtolower($search_value)) !== false) array_push($args, $the_mdoc['parent']);
@@ -1039,5 +1019,21 @@ function mdocs_parse_size($size) {
   }
 }
 
-
+function mdocs_convert_bytes($bytes) {
+	$file_size_type = __('bytes','memphis-documents-library');
+	if($bytes > 1000 && $bytes < 1000000) {
+		$file_size_type = __('KB','memphis-documents-library');
+		$bytes = round($bytes/1024,1);
+	} elseif($bytes > 1000000) {
+		$file_size_type = __('MB','memphis-documents-library');
+		$bytes =  round($bytes/1048576,1);
+	} elseif ($bytes > 1000000000) {
+		$file_size_type = __('GB','memphis-documents-library');
+		$bytes =  round($bytes/1073741824,1);
+	} elseif ($bytes > 1000000000000) {
+		$file_size_type = __('TB','memphis-documents-library');
+		$bytes =  round($bytes/1099511627776,1);
+	}
+	return $bytes.' '.$file_size_type;
+}
 ?>

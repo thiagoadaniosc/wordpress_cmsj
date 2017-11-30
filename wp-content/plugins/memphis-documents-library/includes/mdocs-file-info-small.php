@@ -30,12 +30,15 @@ function mdocs_display_file_info($the_mdoc, $index=0, $current_cat) {
 	if(get_option('mdocs-hide-new-update-label')) $new_or_updated = '';
 	
 	
-	
-	if($the_mdoc['file_status'] == 'hidden' || get_option('mdocs-hide-all-files') == true ) $file_status = '<i class="fa fa-eye-slash" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="'.__('File is Hidden', 'memphis-documents-library').'"></i>';
-	else $file_status = '';
-	if($the_mdoc['post_status'] != 'publish' || get_option('mdocs-hide-all-post') == true ) $post_status = '&nbsp<i class="fa fa-lock" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="'.__('Post is ', 'memphis-documents-library').ucfirst($the_mdoc['post_status']).'"></i>';
-	else $post_status = '';
-	
+	if(is_admin()) {
+		if($the_mdoc['file_status'] == 'hidden' || get_option('mdocs-hide-all-files')) $file_status = '<i class="fa fa-eye-slash" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="'.__('File is Hidden', 'memphis-documents-library').'"></i>';
+		else $file_status = '';
+		if($the_mdoc['post_status'] != 'publish' || get_option('mdocs-hide-all-posts')) $post_status = '&nbsp<i class="fa fa-lock" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="'.__('Post is ', 'memphis-documents-library').ucfirst($the_mdoc['post_status']).'"></i>';
+		else $post_status = '';
+	} else {
+		$file_status = '';
+		$post_status = '';
+	}
 	?>
 		<tr class="<?php echo $status_class; ?>">
 			<?php
@@ -105,41 +108,5 @@ function mdocs_display_file_info($the_mdoc, $index=0, $current_cat) {
 		</tr>
 		<tr>
 <?php
-}
-function mdocs_display_downloads($the_mdoc) {
-	echo $the_mdoc['downloads'].' <small>'.__('downloads','memphis-documents-library').'</small>';
-}
-function mdocs_display_version($the_mdoc) {
-	echo $the_mdoc['version'];
-}
-function mdocs_display_owner($the_mdoc) {
-	echo get_user_by('login', $the_mdoc['owner'])->display_name;
-}
-function mdocs_display_updated($the_mdoc) {
-	$the_date = mdocs_format_unix_epoch($the_mdoc['modified']);
-	if($the_date['gmdate'] > time()) $scheduled = '<small class="text-muted"><b>'.__('Scheduled').'</b></small>';
-	else $scheduled = '';
-	echo $the_date['formated-date'];
-}
-function mdocs_display_rating($the_mdoc) {
-	$the_rating = mdocs_get_rating($the_mdoc);
-	for($i=1;$i<=5;$i++) {
-		if($the_rating['average'] >= $i) echo '<i class="fa fa-star mdocs-gold" id="'.$i.'"></i>';
-		elseif(ceil($the_rating['average']) == $i ) echo '<i class="fa fa-star-half-full mdocs-gold" id="'.$i.'"></i>';
-		else echo '<i class="fa fa-star-o" id="'.$i.'"></i>';
-	}
-}
-function mdocs_display_download_btn($the_mdoc) {
-	if($the_mdoc['non_members'] == 'on' || is_user_logged_in()) {
-		?><a href="<?php echo site_url().'/?mdocs-file='.$the_mdoc['id']; ?>"><?php echo __('Download','memphis-documents-library'); ?></a><?php
-	} else {
-		?><a href="<?php echo wp_login_url(htmlspecialchars(get_permalink($the_mdoc['parent']))); ?>"><?php echo __('Login','memphis-documents-library'); ?></a><?php
-	}
-}
-function mdocs_display_description($the_mdoc) {
-	echo $the_mdoc['desc'];
-}
-function mdocs_display_real_author($the_mdoc) {
-	if(isset($the_mdoc['author']))	echo $the_mdoc['author'];
 }
 ?>

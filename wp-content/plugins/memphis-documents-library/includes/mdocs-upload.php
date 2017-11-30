@@ -169,9 +169,7 @@ function mdocs_file_upload() {
 						$mdocs_post = array(
 							'ID' => $mdocs[$mdocs_index]['parent'],
 							'post_title' => $mdocs[$mdocs_index]['name'],
-							//'post_content' => '[mdocs_post_page]',
 							'post_status' => $post_status,
-							'post_excerpt' => $desc,
 							'post_date' => $date['wp-date'],
 							'post_date_gmt' => $date['wp-gmdate'],
 						);
